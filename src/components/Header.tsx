@@ -1,15 +1,17 @@
-import { Button, Icon, IconButton } from '@mui/material';
+import { Button, IconButton } from '@mui/material';
 import React, { FC } from 'react';
 
 const Header: FC = () => {
   return (
-    <div className="h-16 bg-black w-full absolute text-white flex items-center justify-center overflow-x-hidden">
+    <div className="h-16 bg-black w-full text-white flex items-center justify-center overflow-x-hidden">
       <div className="flex flex-row justify-between items-center w-full max-w-[768px]">
-        <img src="/images/Logo.png" className="h-12" alt="Logo" />
+        <a href="/">
+          <img  src="/images/Logo.png" className="h-12" alt="Logo" />
+        </a>
         <nav className="flex gap-16">
-          <Button sx={{color:'white'}}>Discovery</Button>
-          <Button sx={{color:'white'}}>Sobre</Button>
-          <Button sx={{color:'white'}}>Contate-nos</Button>
+          <Button href='/discovery' sx={{color:'white'}}>Discovery</Button>
+          <Button href='/sobre' sx={{color:'white'}}>Sobre</Button>
+          <Button href='/contate-nos' sx={{color:'white'}}>Contate-nos</Button>
         </nav>
         <div className="flex gap-2">
 
