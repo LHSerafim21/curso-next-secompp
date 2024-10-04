@@ -9,7 +9,7 @@ const Header: FC = () => {
           <img  src="/images/Logo.png" className="h-12" alt="Logo" />
         </a>
         <nav className="flex gap-16">
-          <Button href='/discovery' sx={{color:'white'}}>Discovery</Button>
+          <Button href='/discovery' sx={{color:'white'}}>Descobrir</Button>
           <Button href='/sobre' sx={{color:'white'}}>Sobre</Button>
           <Button href='/contate-nos' sx={{color:'white'}}>Contate-nos</Button>
         </nav>

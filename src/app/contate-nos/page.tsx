@@ -8,7 +8,7 @@ export default function Home() {
       <Header />
       <div className='h-40 w-full mt-30 flex align-bottom'>
         <h1 className=' text-black'>
-            Contate-nos 
+            Contate-nos
         </h1>
       </div>
       <Footer />
